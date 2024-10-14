@@ -15,6 +15,6 @@ app.use("/api", router)
 
 const server = createServer(app)
 
-server.listen(5000, () => {
-    connectDB()
-})
+connectDB()
+
+export default server
